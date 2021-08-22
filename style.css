@@ -1,0 +1,27 @@
+#background{
+  background-image: url('pics/background.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+}
+
+#drawing_card{
+  width: 50%;
+  margin: 0 auto;
+}
+
+#drawing_card h1{
+  text-align: center;
+}
+
+@media only screen and (max-width:765px){
+  #drawing_card h1{
+    font-size: 5%;
+  }
+}
+
+.link_texts{
+  text-align: center; 
+  width:80%; 
+  margin: 0 auto;
+}
